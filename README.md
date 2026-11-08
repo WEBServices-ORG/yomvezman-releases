@@ -10,6 +10,12 @@ Hebrew dates, festivals and daily prayer times in a native Mac calendar.
 
 The DMG contains app version **0.6.1 (7)**. The preview label identifies this distribution; it does not change the signed app version.
 
+## App preview
+
+[![YomVezman full-screen calendar with Hebrew dates and Jerusalem prayer times](assets/yomvezman-0.6.1-calendar.jpg)](https://webservices-org.github.io/yomvezman-releases/assets/yomvezman-0.6.1-calendar.jpg)
+
+YomVezman 0.6.1 · Jerusalem sample calendar. Open the image to view it at full size.
+
 ## Requirements
 
 - A Mac with Apple silicon (M-series).
