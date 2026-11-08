@@ -4,31 +4,30 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>YomVezman</title>
         <item>
-            <title>0.7.0</title>
-            <pubDate>Mon, 09 Nov 2026 00:09:52 +0200</pubDate>
-            <sparkle:version>9</sparkle:version>
-            <sparkle:shortVersionString>0.7.0</sparkle:shortVersionString>
+            <title>0.8.0</title>
+            <pubDate>Mon, 09 Nov 2026 01:18:42 +0200</pubDate>
+            <sparkle:version>10</sparkle:version>
+            <sparkle:shortVersionString>0.8.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# YomVezman 0.7.0 preview
+            <description sparkle:format="markdown"><![CDATA[# YomVezman 0.8.0 feature-freeze preview
 
-App 0.7.0 (9), Apple silicon, macOS 14 or later. Testing prerelease, not an App Store-approved release.
+App 0.8.0 (10), Apple silicon, macOS 14 or later. This is a testing prerelease, not the 0.9.0 release candidate or an App Store-approved build.
 
-Adds two tools to the View menu:
+New: **View > Daily Psalms** opens an offline Hebrew reader with all 150 chapters (2,527 verses) from the explicitly selected **Tanach with Nikkud** edition, provided by Sefaria and sourced from tanach.us, labeled Public Domain. Exact text and chapter/verse references are preserved; no generated text or English translation is included.
 
-- Date converter: compare an exact civil or Hebrew month/day across years. Missing leap dates remain unavailable; this is not an anniversary or observance calculator.
-- Festival converter: compare full daytime festival ranges across up to ten Hebrew years using Hebcal, the selected city and Israel/diaspora schedule. Select Load after editing the range. Source-not-listed and unavailable results are explicit; saved fallback includes its timestamp. Open a result in the calendar.
+The monthly reading follows the selected city's daytime Hebrew date. Psalm 119 is split across days 25/26; a 29-day month combines the final two portions. Previous/next-day buttons update the calendar selection. Adjust text size, or Tab into the reading area and use Up/Down by verse and Home/End to reach the beginning/end. A visible outline marks keyboard focus. No reading history is stored and no text is fetched while reading.
 
-Both tools have English/Hebrew full-screen native checks. The date converter also passed English keyboard navigation. 82 live regression tests and two independent reviews pass, including common/leap-year festival lengths and schedule differences.
+Source integrity, complete monthly coverage, timezone boundaries, keyboard endpoints/mixed-input scrolling, and refusal of damaged text were verified. The source passed 92 regression tests, including live Hebcal checks, and independent reviews.
 
-Remaining testing limits: minimized/status-only recovery, permission denial and Stop lookup, arbitrary map-point selection, same-process outage/retry and late-response checks, complete keyboard/spoken VoiceOver and final display regression. The daily-Psalms reader and Store preparation remain pending. This preview is not the 0.9.0 release candidate; publication does not close these gates.
+Feature freeze means the next work focuses on acceptance and fixes. Spoken VoiceOver and remaining keyboard/display, minimized/status-only recovery, actual location permission denial/Stop, arbitrary map-point selection, same-process outage/retry and reset-error checks remain required before **0.9.0 RC**. Their status is unverified, not a claim of confirmed defects. App Store validation belongs to **1.0.0**. Preview publication does not close these gates. Fresh final-package UI smoke and website rendering were unavailable because the native/browser automation hosts could not connect; earlier source-native checks are recorded separately.
 
-From 0.4.0 or later, use Check for Updates, Update, Install Update, then Install and Relaunch. Older versions need one manual installation. Updates remain user-confirmed.
+From 0.4.0 or later, use Check for Updates and follow the user-confirmed installation prompts. Older versions need one manual installation. The owner performs installation; no automatic or silent update is enabled.
 ]]></description>
-            <enclosure url="https://github.com/WEBServices-ORG/yomvezman-releases/releases/download/v0.7.0-preview.1/YomVezman-0.7.0-9-arm64.dmg" length="3328046" type="application/octet-stream" sparkle:edSignature="DY6J4Z1rkctGwwR9Pt91LqOtZIep5V/G3HEMCwf9N/askTabQILLUyzuNavYdGmAbkJTOl3xoIrMJyMQP6KVAQ=="></enclosure>
+            <enclosure url="https://github.com/WEBServices-ORG/yomvezman-releases/releases/download/v0.8.0-preview.1/YomVezman-0.8.0-10-arm64.dmg" length="3480174" type="application/octet-stream" sparkle:edSignature="Jppe69xYAE94dvizVdlEdrQxnt1wxH9RpqqcOU29Oz9sx8BT1OhHal4MxiSWGMx89aDFx8DHYb01KYGw+gcCBQ=="></enclosure>
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: 3Dpga+kEktcDcTWHtEQpB1sahh6vG1UA0+jZwxfRXFiE08zHcehAAfiQZfO4IQv0SZJKubmsXEoX2OPEnEKGBQ==
-length: 2695
+edSignature: DoIHrhrcY4v6U6RJuaff9TWj6esre1MyVVsmrEds45vrvzIfsanSJOxc11xhpIKTQ0NRdvHwqIwBtxRadmBxAw==
+length: 3302
 -->

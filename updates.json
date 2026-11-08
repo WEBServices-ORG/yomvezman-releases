@@ -1,9 +1,9 @@
 {
   "schema": 1,
-  "version": "0.7.0",
-  "build": 9,
+  "version": "0.8.0",
+  "build": 10,
   "minimumSystemVersion": "14.0.0",
   "prerelease": true,
-  "notes": "Preview 0.7.0 adds multi-year date and festival converters in English/Hebrew. Festival ranges use Hebcal and your selected city/schedule. Recovery, full VoiceOver, daily Psalms and Store preparation remain open. Updates stay user-confirmed.",
-  "releaseURL": "https://github.com/WEBServices-ORG/yomvezman-releases/releases/tag/v0.7.0-preview.1"
+  "notes": "Feature-freeze preview 0.8.0 adds an offline Hebrew Psalms reader with exact verse references, daily portions and keyboard navigation. Spoken VoiceOver and remaining reliability/accessibility checks are required before 0.9.0 RC. Store validation is planned for 1.0.0. Updates remain user-confirmed.",
+  "releaseURL": "https://github.com/WEBServices-ORG/yomvezman-releases/releases/tag/v0.8.0-preview.1"
 }
