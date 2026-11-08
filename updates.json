@@ -1,9 +1,9 @@
 {
   "schema": 1,
-  "version": "0.2.0",
-  "build": 2,
+  "version": "0.3.0",
+  "build": 3,
   "minimumSystemVersion": "14.0.0",
   "prerelease": true,
-  "notes": "Update availability: manually check for new previews, read release notes, and optionally check at launch. Automatic checks are off by default. Downloads and installation remain manual. In full screen, use Window > Software Update if the update window is behind the calendar.",
-  "releaseURL": "https://github.com/WEBServices-ORG/yomvezman-releases/releases/tag/v0.2.0-preview.1"
+  "notes": "Software Update now stays visible as a panel over the full-screen calendar. Settings drafts are preserved when checking for updates. Download the DMG, quit YomVezman, and replace the app in Applications. Installation remains manual.",
+  "releaseURL": "https://github.com/WEBServices-ORG/yomvezman-releases/releases/tag/v0.3.0-preview.1"
 }
