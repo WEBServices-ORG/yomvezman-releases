@@ -1,9 +1,9 @@
 {
   "schema": 1,
-  "version": "0.3.0",
-  "build": 3,
+  "version": "0.4.0",
+  "build": 4,
   "minimumSystemVersion": "14.0.0",
   "prerelease": true,
-  "notes": "Software Update now stays visible as a panel over the full-screen calendar. Settings drafts are preserved when checking for updates. Download the DMG, quit YomVezman, and replace the app in Applications. Installation remains manual.",
-  "releaseURL": "https://github.com/WEBServices-ORG/yomvezman-releases/releases/tag/v0.3.0-preview.1"
+  "notes": "Preview 0.4.0 adds verified in-app installation and relaunch. IMPORTANT: versions through 0.3.0 need one manual installation of this DMG to acquire the updater. Quit YomVezman and replace it in Applications. Future updates from 0.4.0 can use Update, Install Update, then Install and Relaunch. Your calendar settings are preserved.",
+  "releaseURL": "https://github.com/WEBServices-ORG/yomvezman-releases/releases/tag/v0.4.0-preview.1"
 }

@@ -6,9 +6,9 @@
 
 Hebrew dates, festivals and daily prayer times in a native Mac calendar.
 
-**Public preview — 0.3.0-preview.1.** An early prerelease for testing, not a finished release or an App Store-approved build. [Website](https://webservices-org.github.io/yomvezman-releases/) · [Download and release notes](https://github.com/WEBServices-ORG/yomvezman-releases/releases/tag/v0.3.0-preview.1).
+**Public preview — 0.4.0-preview.1.** An early prerelease for testing, not a finished release or an App Store-approved build. [Website](https://webservices-org.github.io/yomvezman-releases/) · [Download and release notes](https://github.com/WEBServices-ORG/yomvezman-releases/releases/tag/v0.4.0-preview.1).
 
-The DMG contains app version **0.3.0 (3)**. The preview label identifies this distribution; it does not change the signed app version.
+The DMG contains app version **0.4.0 (4)**. The preview label identifies this distribution; it does not change the signed app version.
 
 ## Requirements
 
@@ -18,7 +18,7 @@ The DMG contains app version **0.3.0 (3)**. The preview label identifies this di
 
 ## Install
 
-1. Download the [Apple-silicon DMG](https://github.com/WEBServices-ORG/yomvezman-releases/releases/download/v0.3.0-preview.1/YomVezman-0.3.0-3-arm64.dmg).
+1. Download the [Apple-silicon DMG](https://github.com/WEBServices-ORG/yomvezman-releases/releases/download/v0.4.0-preview.1/YomVezman-0.4.0-4-arm64.dmg).
 2. Open the DMG and drag YomVezman to Applications.
 3. Eject the disk image and open YomVezman from Applications.
 4. Choose a city and timezone. Check the Israel/diaspora schedule, candle-lighting offset and Havdalah method for your practice.
@@ -37,7 +37,7 @@ Calendar events and default times come from [Hebcal](https://www.hebcal.com/). O
 
 ## Updates
 
-Choose YomVezman > Check for Updates to see available versions and release notes. Optional automatic checks at launch are off by default. Downloads and installation are manual. Users of 0.1.0 must download this version once to get the checker.
+Choose YomVezman > Check for Updates to see available versions and release notes. Optional automatic checks at launch are off by default. In 0.4.0 and later, choose Update, then Install Update and Install and Relaunch. Versions through 0.3.0 require one manual DMG installation to gain this capability. Installation always requires confirmation.
 
 ## Support development
 
@@ -55,12 +55,12 @@ This repository distributes the Mac app and its website. The application's sourc
 
 60 automated tests pass, including live calendar integration, calculation comparisons, polar-boundary cases and saved-data reset/recovery. Signature, notarization and packaged-copy Gatekeeper checks pass. Signed-candidate launch and full-screen checks pass; see release notes for remaining acceptance limits. The owner confirmed the visible menu-bar date/Open calendar path.
 
-New in 0.3.0: Software Update appears as a panel attached to the calendar and stays visible in full screen. Existing Settings drafts remain intact when an update check is requested.
+New in 0.4.0: choose Update, then Install Update and Install and Relaunch. The app verifies signed update metadata and downloads before replacement. Versions through 0.3.0 need one manual DMG installation to acquire the updater; later updates can install inside the app.
 
 Acceptance checks still open: full Dock-free window lifecycle and recovery; first-use location permission grant/denial and arbitrary map-point input; spoken VoiceOver date editing; native same-process network failure/recovery; native reset error presentation. These are unverified paths, not claims of confirmed defects. Keep Dock mode enabled if you need the most thoroughly exercised launch path. App Store signing, privacy-label classification and submission are not complete.
 
-SHA-256 (`YomVezman-0.3.0-3-arm64.dmg`):
+SHA-256 (`YomVezman-0.4.0-4-arm64.dmg`):
 
 ```text
-0e6291727a29979d93c116e3b25ef8fe2c0ef02dda2f10c6f39c54a4163bfdd9
+9d1f4fa1fed457601c7c7aa5fee85ad0cf924a5a49199695f64e31c5b740832a
 ```

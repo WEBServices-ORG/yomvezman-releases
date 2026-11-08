@@ -1,0 +1,21 @@
+<?xml version="1.0" standalone="yes"?><!-- sparkle-sign-warning:
+IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
+--><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>YomVezman</title>
+        <item>
+            <title>0.4.0</title>
+            <pubDate>Sun, 08 Nov 2026 19:56:33 +0200</pubDate>
+            <sparkle:version>4</sparkle:version>
+            <sparkle:shortVersionString>0.4.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="plain-text"><![CDATA[Preview 0.4.0 adds secure in-app installation. Choose Install Update, then Install and Relaunch. Your calendar settings are preserved. Versions through 0.3.0 need one manual installation to acquire the updater.
+]]></description>
+            <enclosure url="https://github.com/WEBServices-ORG/yomvezman-releases/releases/download/v0.4.0-preview.1/YomVezman-0.4.0-4-arm64.dmg" length="3238340" type="application/octet-stream" sparkle:edSignature="psV4/h05GEySg+J0okSbJRPs+7KNpO5FYrJtDjtYtQ4snq2Di4REXEyHM41Pf0V+UPUzD/VcQJmFTPSYSCbwCQ=="></enclosure>
+        </item>
+    </channel>
+</rss><!-- sparkle-signatures:
+edSignature: SCRpJPAhkZz1iAvzgCU7FEUvPqOvoumdNKpzDDKFmGW3JlfCec/zsY1mqpL5jtXnmfPdfWVKess0Um5uaYhEAg==
+length: 1448
+-->
