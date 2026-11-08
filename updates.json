@@ -1,9 +1,9 @@
 {
   "schema": 1,
-  "version": "0.6.1",
-  "build": 7,
+  "version": "0.6.2",
+  "build": 8,
   "minimumSystemVersion": "14.0.0",
   "prerelease": true,
-  "notes": "Preview0.6.1 adds a native bilingual About window with version/build, app icon, credits, license, privacy and support links. Menu-only, permission and packaged network-recovery acceptance remain open. From0.4.0 or later use Update, Install Update, then Install and Relaunch.",
-  "releaseURL": "https://github.com/WEBServices-ORG/yomvezman-releases/releases/tag/v0.6.1-preview.1"
+  "notes": "Preview 0.6.2 fixes reversed numeric cycle ratios in the Hebrew calendar footer without changing calculations. Native recovery, full VoiceOver, remaining feature parity and Store preparation are still open. Updates remain user-confirmed.",
+  "releaseURL": "https://github.com/WEBServices-ORG/yomvezman-releases/releases/tag/v0.6.2-preview.1"
 }

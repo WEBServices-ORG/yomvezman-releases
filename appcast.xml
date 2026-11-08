@@ -4,30 +4,28 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>YomVezman</title>
         <item>
-            <title>0.6.1</title>
-            <pubDate>Sun, 08 Nov 2026 21:29:41 +0200</pubDate>
-            <sparkle:version>7</sparkle:version>
-            <sparkle:shortVersionString>0.6.1</sparkle:shortVersionString>
+            <title>0.6.2</title>
+            <pubDate>Sun, 08 Nov 2026 23:04:22 +0200</pubDate>
+            <sparkle:version>8</sparkle:version>
+            <sparkle:shortVersionString>0.6.2</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="plain-text"><![CDATA[# YomVezman 0.6.1 preview
+            <description sparkle:format="plain-text"><![CDATA[# YomVezman 0.6.2 preview
 
-App 0.6.1 (7), Apple silicon, macOS 14 or later. Testing prerelease, not an App Store-approved release.
+App 0.6.2 (8), Apple silicon, macOS 14 or later. Testing prerelease, not an App Store-approved release.
 
-Native About YomVezman window with app icon, running version/build, developer information, Hebcal credits, bundled Sparkle license, website, privacy and support links. Available from the application and date-status menus. English/Hebrew layouts and expanded license checked visually; Escape and Done dismiss it. No calendar settings changed by About.
+Fixes reversed numeric cycle ratios in the Hebrew calendar footer. Lunar, solar and sabbatical positions now display in the same numeric order as English. Calendar calculations are unchanged.
 
-72 automated tests pass. Independent Swift review approved. Developer ID signed, notarized and stapled.
+The correction passed rebuilt English/Hebrew visual checks, 72 live regression tests and independent review.
 
-Acceptance remains partial: status-item-only About/calendar recovery, minimized-window recovery, permission denial, native Stop lookup activation, packaged same-process network outage/recovery, spoken VoiceOver and live link handoff remain unverified. Keep Dock mode enabled for the most thoroughly exercised launch path. This release does not close those RC gates.
+Remaining testing limits: menu-bar-only and minimized-window recovery, location permission denial and Stop lookup, same-process network recovery, full keyboard/VoiceOver coverage, and remaining feature parity and Store preparation. This preview is not the 0.9.0 release candidate.
 
-From 0.4.0 or later: Check for Updates → Update → Install Update → Install and Relaunch. Older versions need one manual DMG installation. Publication does not replace your installed app.
-
-SHA-256: `bbcd83efd972c886736f11d8a2a8682cf8930067517e42ab53ec04a93b64850c`
+From 0.4.0 or later, use Check for Updates, Update, Install Update, then Install and Relaunch. Older versions need one manual installation. Updates remain user-confirmed.
 ]]></description>
-            <enclosure url="https://github.com/WEBServices-ORG/yomvezman-releases/releases/download/v0.6.1-preview.1/YomVezman-0.6.1-7-arm64.dmg" length="3267083" type="application/octet-stream" sparkle:edSignature="xF0+qZuLBqIcMYstjkK4MfuylK82cO2RP7uf6pezSEqhNLi6iezy9c1K+BrunMKOY14CBUX0pgQOpwOyWiubDQ=="></enclosure>
+            <enclosure url="https://github.com/WEBServices-ORG/yomvezman-releases/releases/download/v0.6.2-preview.1/YomVezman-0.6.2-8-arm64.dmg" length="3267266" type="application/octet-stream" sparkle:edSignature="1u/7LkhoR9LTOLQP7Jkbbms1czFL5tUUa49lwSXn6jvndoBfYrdvpdCxfJzMrVkB1NOUmT42ZidJx8OAv4uRCA=="></enclosure>
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: iMckFVC7fSrNAJ+4N8Dsp+K3KuywLPCOpVA33nDlxrU220vrfNCH4AOcEgPCMvmYfPdAPwH9Nciz67VEPxNBAg==
-length: 2463
+edSignature: p7zgI/tN+6l7bHCB6SX1pwcc+2OUAaF1mSNkFYxY7+238XL7J7SiR8ht2a8TOJAaMUqoK71n+xNjEezKm3jnAQ==
+length: 2125
 -->
