@@ -1,9 +1,9 @@
 {
   "schema": 1,
-  "version": "0.1.0",
-  "build": 1,
+  "version": "0.2.0",
+  "build": 2,
   "minimumSystemVersion": "14.0.0",
   "prerelease": true,
-  "notes": "First public preview: Hebrew and Gregorian calendars, daily times, festival overview, traditional molad table and saved-data controls. See the release page for testing limitations.",
-  "releaseURL": "https://github.com/WEBServices-ORG/yomvezman-releases/releases/tag/v0.1.0-preview.1"
+  "notes": "Update availability: manually check for new previews, read release notes, and optionally check at launch. Automatic checks are off by default. Downloads and installation remain manual. In full screen, use Window > Software Update if the update window is behind the calendar.",
+  "releaseURL": "https://github.com/WEBServices-ORG/yomvezman-releases/releases/tag/v0.2.0-preview.1"
 }
