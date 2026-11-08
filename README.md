@@ -39,6 +39,10 @@ Calendar events and default times come from [Hebcal](https://www.hebcal.com/). O
 
 Choose YomVezman > Check for Updates to see available versions and release notes. Optional automatic checks at launch are off by default. Downloads and installation are manual. Users of 0.1.0 must download this version once to get the checker.
 
+## Support development
+
+If you find YomVezman useful, you can [support its development via PayPal](https://www.paypal.com/ncp/payment/VRVYW4BB3CH3L). Contributions are optional.
+
 ## Support and privacy
 
 For app support or privacy questions, email [beacons_mobile_9k@icloud.com](mailto:beacons_mobile_9k@icloud.com). Read the [privacy notice](https://webservices-org.github.io/yomvezman-releases/privacy.html). Do not post private locations, credentials or other sensitive information in public issue reports. Useful reports include the app version, macOS version, the steps taken and what happened.
