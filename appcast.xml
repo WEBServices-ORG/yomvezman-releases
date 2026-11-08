@@ -4,32 +4,34 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>YomVezman</title>
         <item>
-            <title>0.5.0</title>
-            <pubDate>Sun, 08 Nov 2026 20:38:00 +0200</pubDate>
-            <sparkle:version>5</sparkle:version>
-            <sparkle:shortVersionString>0.5.0</sparkle:shortVersionString>
+            <title>0.6.0</title>
+            <pubDate>Sun, 08 Nov 2026 21:15:23 +0200</pubDate>
+            <sparkle:version>6</sparkle:version>
+            <sparkle:shortVersionString>0.6.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="plain-text"><![CDATA[# YomVezman 0.5.0 preview
+            <description sparkle:format="plain-text"><![CDATA[# YomVezman 0.6.0 preview
 
-App version 0.5.0 (5), for Apple silicon and macOS 14 or later. This is a testing prerelease, not an App Store release.
+App 0.6.0 (6) for Apple silicon, macOS 14 or later. Testing prerelease; not an App Store-approved release.
 
-- Saved full-screen opening preference, enabled by default.
-- Coordinated calendar reopening with Command-O.
-- Clearer Settings sections that preserve location drafts.
-- Updates preferences with optional startup checks; nothing installs silently.
-- Corrected Hebrew development-build update wording.
+- Stop lookup returns location fields to manual editing without closing the map.
+- Canceled location requests cannot overwrite a newer selection.
+- Invalid map coordinates and lookup results cannot reuse an old usable draft.
+- Repeated authorization callbacks no longer request duplicate location fixes.
+- Expanded tests for offline failure, saved-data fallback, fresh retry and location isolation across all calendar panels.
 
-64 automated tests pass, including live integration. Developer ID signature, Apple notarization, stapling and Gatekeeper checks pass. Restart persistence, closed-calendar reopening and full-screen entry/manual exit passed isolated native checks. Complete minimized-window, menu-only/Dock recovery, keyboard accessibility, location-permission and network-recovery acceptance remain open; these are unverified paths, not confirmed defects. Keep Dock mode enabled for the most thoroughly exercised launch path.
+72 live-enabled automated tests pass. Independent Swift review has no blockers. Native checks passed current-location and map-center draft lookup, Cancel without saving, invalid timezone rejection/correction and saving/loading calendar data. Real permission denial, native Stop-button activation, packaged network-outage/recovery, arbitrary map clicks and earlier menu-only/keyboard acceptance remain unverified. Automated simulations do not establish native acceptance. Keep Dock mode enabled for the most thoroughly exercised launch path.
 
-From 0.4.0: Check for Updates → Update → Install Update → Install and Relaunch. Versions through 0.3.0 need one manual installation from the DMG. The owner-installed app has not been changed.
+Developer ID signed, notarized and stapled. Notarization is a security check, not App Store approval or religious certification.
 
-SHA-256: `1be5af9da9f13eadc5b88824b10ccbea2148f50d410cd159a609e740199fdf66`
+From 0.4.0 or later use Check for Updates → Update → Install Update → Install and Relaunch. Older versions require one manual DMG installation. Your installed app is not changed by publication.
+
+SHA-256: `72c26d50f8fa67e743a72965b8e38eb0f8eab781b9cdb1dafb60de2c8418dfbb`
 ]]></description>
-            <enclosure url="https://github.com/WEBServices-ORG/yomvezman-releases/releases/download/v0.5.0-preview.1/YomVezman-0.5.0-5-arm64.dmg" length="3255698" type="application/octet-stream" sparkle:edSignature="T+e3PnBrPayfXslMYNaG8mTA70yU7INmmGB+sOw2mRcwU6vDBGAdEtZe7VWHdAF/eYkyVuBYWZfEHsc/c+X2AQ=="></enclosure>
+            <enclosure url="https://github.com/WEBServices-ORG/yomvezman-releases/releases/download/v0.6.0-preview.1/YomVezman-0.6.0-6-arm64.dmg" length="3256464" type="application/octet-stream" sparkle:edSignature="9ONRop0LuzVXQo2EIWjD5m5ItJRZGPh1NJHvYqHe31QlwfON9QOt4DFuLA9cFsZ3T0Fv7fS/vkchcki8XF+EDg=="></enclosure>
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: aqhKywif6wks7KRDyLinlhTSgldfL0xdYuOO6ltvLSe/pTGLywIQXzEFSA024ZfLT41xIX/rYl0ksPoATf+iDA==
-length: 2470
+edSignature: UTJ7G9NiCAQW5us1G3mL4B/Lyqc3w88VXcwarkWjejfgRrewylDVCZJTCn8vhoG/OoxtbhbT0YmByhawxIQcCA==
+length: 2748
 -->

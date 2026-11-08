@@ -6,9 +6,9 @@
 
 Hebrew dates, festivals and daily prayer times in a native Mac calendar.
 
-**Public preview — 0.5.0-preview.1.** An early prerelease for testing, not a finished release or an App Store-approved build. [Website](https://webservices-org.github.io/yomvezman-releases/) · [Download and release notes](https://github.com/WEBServices-ORG/yomvezman-releases/releases/tag/v0.5.0-preview.1).
+**Public preview — 0.6.0-preview.1.** An early prerelease for testing, not a finished release or an App Store-approved build. [Website](https://webservices-org.github.io/yomvezman-releases/) · [Download and release notes](https://github.com/WEBServices-ORG/yomvezman-releases/releases/tag/v0.6.0-preview.1).
 
-The DMG contains app version **0.5.0 (5)**. The preview label identifies this distribution; it does not change the signed app version.
+The DMG contains app version **0.6.0 (6)**. The preview label identifies this distribution; it does not change the signed app version.
 
 ## Requirements
 
@@ -18,7 +18,7 @@ The DMG contains app version **0.5.0 (5)**. The preview label identifies this di
 
 ## Install
 
-1. Download the [Apple-silicon DMG](https://github.com/WEBServices-ORG/yomvezman-releases/releases/download/v0.5.0-preview.1/YomVezman-0.5.0-5-arm64.dmg).
+1. Download the [Apple-silicon DMG](https://github.com/WEBServices-ORG/yomvezman-releases/releases/download/v0.6.0-preview.1/YomVezman-0.6.0-6-arm64.dmg).
 2. Open the DMG and drag YomVezman to Applications.
 3. Eject the disk image and open YomVezman from Applications.
 4. Choose a city and timezone. Check the Israel/diaspora schedule, candle-lighting offset and Havdalah method for your practice.
@@ -53,14 +53,14 @@ This repository distributes the Mac app and its website. The application's sourc
 
 ## Testing status and limitations
 
-64 automated tests pass, including live calendar integration, calculation comparisons, polar-boundary cases and saved-data reset/recovery. Signature, notarization and packaged-copy Gatekeeper checks pass. Signed-candidate launch and full-screen checks pass; see release notes for remaining acceptance limits. The owner confirmed the visible menu-bar date/Open calendar path.
+72 automated tests pass, including live calendar integration, calculation comparisons, polar-boundary cases and saved-data reset/recovery. Signature, notarization and packaged-copy Gatekeeper checks pass. Signed-candidate launch and full-screen checks pass; see release notes for remaining acceptance limits. The owner confirmed the visible menu-bar date/Open calendar path.
 
-New in 0.5.0: saved full-screen opening preference, coordinated calendar reopening (Command-O), readable Settings sections and direct-distribution update preferences. Location drafts survive switching Settings sections. Restart persistence and full-screen reopening passed native checks; minimized-window and menu-only recovery still need complete acceptance.
+New in 0.6.0: Stop lookup unlocks manual location entry, late location callbacks cannot change a newer request, invalid lookup results cannot become usable drafts, and repeated authorization callbacks cannot request duplicate fixes. Automated tests cover unavailable connections, saved-data fallback, fresh retries and location isolation. Native map-center/current-location draft, cancellation and timezone validation passed; complete permission-denial and network-outage acceptance remain open.
 
 Acceptance checks still open: full Dock-free window lifecycle and recovery; first-use location permission grant/denial and arbitrary map-point input; spoken VoiceOver date editing; native same-process network failure/recovery; native reset error presentation. These are unverified paths, not claims of confirmed defects. Keep Dock mode enabled if you need the most thoroughly exercised launch path. App Store signing, privacy-label classification and submission are not complete.
 
-SHA-256 (`YomVezman-0.5.0-5-arm64.dmg`):
+SHA-256 (`YomVezman-0.6.0-6-arm64.dmg`):
 
 ```text
-1be5af9da9f13eadc5b88824b10ccbea2148f50d410cd159a609e740199fdf66
+72c26d50f8fa67e743a72965b8e38eb0f8eab781b9cdb1dafb60de2c8418dfbb
 ```
