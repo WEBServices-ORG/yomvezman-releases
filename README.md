@@ -6,9 +6,9 @@
 
 Hebrew dates, festivals and daily prayer times in a native Mac calendar.
 
-**Public preview — 0.6.2-preview.1.** An early prerelease for testing, not a finished release or an App Store-approved build. [Website](https://webservices-org.github.io/yomvezman-releases/) · [Download and release notes](https://github.com/WEBServices-ORG/yomvezman-releases/releases/tag/v0.6.2-preview.1).
+**Public preview — 0.7.0-preview.1.** An early prerelease for testing, not a finished release or an App Store-approved build. [Website](https://webservices-org.github.io/yomvezman-releases/) · [Download and release notes](https://github.com/WEBServices-ORG/yomvezman-releases/releases/tag/v0.7.0-preview.1).
 
-The DMG contains app version **0.6.2 (8)**. The preview label identifies this distribution; it does not change the signed app version.
+The DMG contains app version **0.7.0 (9)**. The preview label identifies this distribution; it does not change the signed app version.
 
 ## App preview
 
@@ -24,7 +24,7 @@ YomVezman 0.6.1 · Jerusalem sample calendar. Open the image to view it at full 
 
 ## Install
 
-1. Download the [Apple-silicon DMG](https://github.com/WEBServices-ORG/yomvezman-releases/releases/download/v0.6.2-preview.1/YomVezman-0.6.2-8-arm64.dmg).
+1. Download the [Apple-silicon DMG](https://github.com/WEBServices-ORG/yomvezman-releases/releases/download/v0.7.0-preview.1/YomVezman-0.7.0-9-arm64.dmg).
 2. Open the DMG and drag YomVezman to Applications.
 3. Eject the disk image and open YomVezman from Applications.
 4. Choose a city and timezone. Check the Israel/diaspora schedule, candle-lighting offset and Havdalah method for your practice.
@@ -59,16 +59,16 @@ This repository distributes the Mac app and its website. The application's sourc
 
 ## Testing status and limitations
 
-72 automated tests pass, including live calendar integration, calculation comparisons, polar-boundary cases and saved-data reset/recovery. Signature, notarization and packaged-copy Gatekeeper checks pass. Earlier signed-candidate launch and full-screen checks passed; the final 0.6.2 native launch check remains unverified. See release notes for remaining acceptance limits. The owner confirmed the visible menu-bar date/Open calendar path.
+82 automated tests pass, including live calendar integration, festival lengths, calculation comparisons, polar-boundary cases and saved-data reset/recovery. Both converters passed isolated English/Hebrew full-screen checks. See release notes for remaining acceptance limits.
 
-New in 0.6.2: Hebrew calendar cycle ratios now preserve the correct numeric order. Calendar calculations are unchanged. Final-candidate UI smoke was blocked by computer-use permission; the unchanged correction passed native English/Hebrew checks in the preceding development build.
+New in 0.7.0: View > Date converter compares exact dates across years; View > Festival converter compares full daytime festival ranges across up to ten Hebrew years using the selected city and Israel/diaspora setting. Editing a festival year range requires Load again. Missing dates and source-unavailable states are explicit.
 
 Introduced in 0.6.1: About YomVezman is available from the application and date-status menus. It shows the running version/build, app icon, credits, bundled Sparkle license, privacy and support links. English/Hebrew layouts and keyboard dismissal passed native checks; status-item-only invocation and broader recovery checks remain open.
 
 Acceptance checks still open: full Dock-free window lifecycle and recovery; first-use location permission grant/denial and arbitrary map-point input; spoken VoiceOver date editing; native same-process network failure/recovery; native reset error presentation. These are unverified paths, not claims of confirmed defects. Keep Dock mode enabled if you need the most thoroughly exercised launch path. App Store signing, privacy-label classification and submission are not complete.
 
-SHA-256 (`YomVezman-0.6.2-8-arm64.dmg`):
+SHA-256 (`YomVezman-0.7.0-9-arm64.dmg`):
 
 ```text
-c8a3d06933eb643c02973f121bd87f352e411ec73bbb79f9d627efe776498341
+1a94b31b0b02ba60fa8995625746c02c4b47b49b0bab0d4e76d787197f23219e
 ```

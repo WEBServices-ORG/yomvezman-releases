@@ -4,28 +4,31 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>YomVezman</title>
         <item>
-            <title>0.6.2</title>
-            <pubDate>Sun, 08 Nov 2026 23:04:22 +0200</pubDate>
-            <sparkle:version>8</sparkle:version>
-            <sparkle:shortVersionString>0.6.2</sparkle:shortVersionString>
+            <title>0.7.0</title>
+            <pubDate>Mon, 09 Nov 2026 00:09:52 +0200</pubDate>
+            <sparkle:version>9</sparkle:version>
+            <sparkle:shortVersionString>0.7.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="plain-text"><![CDATA[# YomVezman 0.6.2 preview
+            <description sparkle:format="markdown"><![CDATA[# YomVezman 0.7.0 preview
 
-App 0.6.2 (8), Apple silicon, macOS 14 or later. Testing prerelease, not an App Store-approved release.
+App 0.7.0 (9), Apple silicon, macOS 14 or later. Testing prerelease, not an App Store-approved release.
 
-Fixes reversed numeric cycle ratios in the Hebrew calendar footer. Lunar, solar and sabbatical positions now display in the same numeric order as English. Calendar calculations are unchanged.
+Adds two tools to the View menu:
 
-The correction passed rebuilt English/Hebrew visual checks, 72 live regression tests and independent review.
+- Date converter: compare an exact civil or Hebrew month/day across years. Missing leap dates remain unavailable; this is not an anniversary or observance calculator.
+- Festival converter: compare full daytime festival ranges across up to ten Hebrew years using Hebcal, the selected city and Israel/diaspora schedule. Select Load after editing the range. Source-not-listed and unavailable results are explicit; saved fallback includes its timestamp. Open a result in the calendar.
 
-Remaining testing limits: menu-bar-only and minimized-window recovery, location permission denial and Stop lookup, same-process network recovery, full keyboard/VoiceOver coverage, and remaining feature parity and Store preparation. This preview is not the 0.9.0 release candidate.
+Both tools have English/Hebrew full-screen native checks. The date converter also passed English keyboard navigation. 82 live regression tests and two independent reviews pass, including common/leap-year festival lengths and schedule differences.
+
+Remaining testing limits: minimized/status-only recovery, permission denial and Stop lookup, arbitrary map-point selection, same-process outage/retry and late-response checks, complete keyboard/spoken VoiceOver and final display regression. The daily-Psalms reader and Store preparation remain pending. This preview is not the 0.9.0 release candidate; publication does not close these gates.
 
 From 0.4.0 or later, use Check for Updates, Update, Install Update, then Install and Relaunch. Older versions need one manual installation. Updates remain user-confirmed.
 ]]></description>
-            <enclosure url="https://github.com/WEBServices-ORG/yomvezman-releases/releases/download/v0.6.2-preview.1/YomVezman-0.6.2-8-arm64.dmg" length="3267266" type="application/octet-stream" sparkle:edSignature="1u/7LkhoR9LTOLQP7Jkbbms1czFL5tUUa49lwSXn6jvndoBfYrdvpdCxfJzMrVkB1NOUmT42ZidJx8OAv4uRCA=="></enclosure>
+            <enclosure url="https://github.com/WEBServices-ORG/yomvezman-releases/releases/download/v0.7.0-preview.1/YomVezman-0.7.0-9-arm64.dmg" length="3328046" type="application/octet-stream" sparkle:edSignature="DY6J4Z1rkctGwwR9Pt91LqOtZIep5V/G3HEMCwf9N/askTabQILLUyzuNavYdGmAbkJTOl3xoIrMJyMQP6KVAQ=="></enclosure>
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: p7zgI/tN+6l7bHCB6SX1pwcc+2OUAaF1mSNkFYxY7+238XL7J7SiR8ht2a8TOJAaMUqoK71n+xNjEezKm3jnAQ==
-length: 2125
+edSignature: 3Dpga+kEktcDcTWHtEQpB1sahh6vG1UA0+jZwxfRXFiE08zHcehAAfiQZfO4IQv0SZJKubmsXEoX2OPEnEKGBQ==
+length: 2695
 -->

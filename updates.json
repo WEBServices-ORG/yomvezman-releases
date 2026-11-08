@@ -1,9 +1,9 @@
 {
   "schema": 1,
-  "version": "0.6.2",
-  "build": 8,
+  "version": "0.7.0",
+  "build": 9,
   "minimumSystemVersion": "14.0.0",
   "prerelease": true,
-  "notes": "Preview 0.6.2 fixes reversed numeric cycle ratios in the Hebrew calendar footer without changing calculations. Native recovery, full VoiceOver, remaining feature parity and Store preparation are still open. Updates remain user-confirmed.",
-  "releaseURL": "https://github.com/WEBServices-ORG/yomvezman-releases/releases/tag/v0.6.2-preview.1"
+  "notes": "Preview 0.7.0 adds multi-year date and festival converters in English/Hebrew. Festival ranges use Hebcal and your selected city/schedule. Recovery, full VoiceOver, daily Psalms and Store preparation remain open. Updates stay user-confirmed.",
+  "releaseURL": "https://github.com/WEBServices-ORG/yomvezman-releases/releases/tag/v0.7.0-preview.1"
 }
