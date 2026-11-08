@@ -1,9 +1,9 @@
 {
   "schema": 1,
-  "version": "0.6.0",
-  "build": 6,
+  "version": "0.6.1",
+  "build": 7,
   "minimumSystemVersion": "14.0.0",
   "prerelease": true,
-  "notes": "Preview 0.6.0 improves location lookup cancellation, draft validation and late-result protection. Adds Stop lookup and expands offline/retry tests. Some native permission and network-recovery checks remain open. From 0.4.0 or later use Update, Install Update, then Install and Relaunch. Earlier versions need one manual DMG installation.",
-  "releaseURL": "https://github.com/WEBServices-ORG/yomvezman-releases/releases/tag/v0.6.0-preview.1"
+  "notes": "Preview0.6.1 adds a native bilingual About window with version/build, app icon, credits, license, privacy and support links. Menu-only, permission and packaged network-recovery acceptance remain open. From0.4.0 or later use Update, Install Update, then Install and Relaunch.",
+  "releaseURL": "https://github.com/WEBServices-ORG/yomvezman-releases/releases/tag/v0.6.1-preview.1"
 }

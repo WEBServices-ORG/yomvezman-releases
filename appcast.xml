@@ -4,34 +4,30 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>YomVezman</title>
         <item>
-            <title>0.6.0</title>
-            <pubDate>Sun, 08 Nov 2026 21:15:23 +0200</pubDate>
-            <sparkle:version>6</sparkle:version>
-            <sparkle:shortVersionString>0.6.0</sparkle:shortVersionString>
+            <title>0.6.1</title>
+            <pubDate>Sun, 08 Nov 2026 21:29:41 +0200</pubDate>
+            <sparkle:version>7</sparkle:version>
+            <sparkle:shortVersionString>0.6.1</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="plain-text"><![CDATA[# YomVezman 0.6.0 preview
+            <description sparkle:format="plain-text"><![CDATA[# YomVezman 0.6.1 preview
 
-App 0.6.0 (6) for Apple silicon, macOS 14 or later. Testing prerelease; not an App Store-approved release.
+App 0.6.1 (7), Apple silicon, macOS 14 or later. Testing prerelease, not an App Store-approved release.
 
-- Stop lookup returns location fields to manual editing without closing the map.
-- Canceled location requests cannot overwrite a newer selection.
-- Invalid map coordinates and lookup results cannot reuse an old usable draft.
-- Repeated authorization callbacks no longer request duplicate location fixes.
-- Expanded tests for offline failure, saved-data fallback, fresh retry and location isolation across all calendar panels.
+Native About YomVezman window with app icon, running version/build, developer information, Hebcal credits, bundled Sparkle license, website, privacy and support links. Available from the application and date-status menus. English/Hebrew layouts and expanded license checked visually; Escape and Done dismiss it. No calendar settings changed by About.
 
-72 live-enabled automated tests pass. Independent Swift review has no blockers. Native checks passed current-location and map-center draft lookup, Cancel without saving, invalid timezone rejection/correction and saving/loading calendar data. Real permission denial, native Stop-button activation, packaged network-outage/recovery, arbitrary map clicks and earlier menu-only/keyboard acceptance remain unverified. Automated simulations do not establish native acceptance. Keep Dock mode enabled for the most thoroughly exercised launch path.
+72 automated tests pass. Independent Swift review approved. Developer ID signed, notarized and stapled.
 
-Developer ID signed, notarized and stapled. Notarization is a security check, not App Store approval or religious certification.
+Acceptance remains partial: status-item-only About/calendar recovery, minimized-window recovery, permission denial, native Stop lookup activation, packaged same-process network outage/recovery, spoken VoiceOver and live link handoff remain unverified. Keep Dock mode enabled for the most thoroughly exercised launch path. This release does not close those RC gates.
 
-From 0.4.0 or later use Check for Updates → Update → Install Update → Install and Relaunch. Older versions require one manual DMG installation. Your installed app is not changed by publication.
+From 0.4.0 or later: Check for Updates → Update → Install Update → Install and Relaunch. Older versions need one manual DMG installation. Publication does not replace your installed app.
 
-SHA-256: `72c26d50f8fa67e743a72965b8e38eb0f8eab781b9cdb1dafb60de2c8418dfbb`
+SHA-256: `bbcd83efd972c886736f11d8a2a8682cf8930067517e42ab53ec04a93b64850c`
 ]]></description>
-            <enclosure url="https://github.com/WEBServices-ORG/yomvezman-releases/releases/download/v0.6.0-preview.1/YomVezman-0.6.0-6-arm64.dmg" length="3256464" type="application/octet-stream" sparkle:edSignature="9ONRop0LuzVXQo2EIWjD5m5ItJRZGPh1NJHvYqHe31QlwfON9QOt4DFuLA9cFsZ3T0Fv7fS/vkchcki8XF+EDg=="></enclosure>
+            <enclosure url="https://github.com/WEBServices-ORG/yomvezman-releases/releases/download/v0.6.1-preview.1/YomVezman-0.6.1-7-arm64.dmg" length="3267083" type="application/octet-stream" sparkle:edSignature="xF0+qZuLBqIcMYstjkK4MfuylK82cO2RP7uf6pezSEqhNLi6iezy9c1K+BrunMKOY14CBUX0pgQOpwOyWiubDQ=="></enclosure>
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: UTJ7G9NiCAQW5us1G3mL4B/Lyqc3w88VXcwarkWjejfgRrewylDVCZJTCn8vhoG/OoxtbhbT0YmByhawxIQcCA==
-length: 2748
+edSignature: iMckFVC7fSrNAJ+4N8Dsp+K3KuywLPCOpVA33nDlxrU220vrfNCH4AOcEgPCMvmYfPdAPwH9Nciz67VEPxNBAg==
+length: 2463
 -->
