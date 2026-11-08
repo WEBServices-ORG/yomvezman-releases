@@ -1,9 +1,9 @@
 {
   "schema": 1,
-  "version": "0.4.0",
-  "build": 4,
+  "version": "0.5.0",
+  "build": 5,
   "minimumSystemVersion": "14.0.0",
   "prerelease": true,
-  "notes": "Preview 0.4.0 adds verified in-app installation and relaunch. IMPORTANT: versions through 0.3.0 need one manual installation of this DMG to acquire the updater. Quit YomVezman and replace it in Applications. Future updates from 0.4.0 can use Update, Install Update, then Install and Relaunch. Your calendar settings are preserved.",
-  "releaseURL": "https://github.com/WEBServices-ORG/yomvezman-releases/releases/tag/v0.4.0-preview.1"
+  "notes": "Preview 0.5.0 adds a saved full-screen opening preference, calendar reopening improvements and clearer Settings with update preferences. Some minimized-window and menu-only acceptance checks remain open. From 0.4.0 choose Update, Install Update, then Install and Relaunch. Versions through 0.3.0 need one manual DMG installation. Settings are preserved.",
+  "releaseURL": "https://github.com/WEBServices-ORG/yomvezman-releases/releases/tag/v0.5.0-preview.1"
 }

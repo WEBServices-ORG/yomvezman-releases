@@ -4,18 +4,32 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>YomVezman</title>
         <item>
-            <title>0.4.0</title>
-            <pubDate>Sun, 08 Nov 2026 19:56:33 +0200</pubDate>
-            <sparkle:version>4</sparkle:version>
-            <sparkle:shortVersionString>0.4.0</sparkle:shortVersionString>
+            <title>0.5.0</title>
+            <pubDate>Sun, 08 Nov 2026 20:38:00 +0200</pubDate>
+            <sparkle:version>5</sparkle:version>
+            <sparkle:shortVersionString>0.5.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="plain-text"><![CDATA[Preview 0.4.0 adds secure in-app installation. Choose Install Update, then Install and Relaunch. Your calendar settings are preserved. Versions through 0.3.0 need one manual installation to acquire the updater.
+            <description sparkle:format="plain-text"><![CDATA[# YomVezman 0.5.0 preview
+
+App version 0.5.0 (5), for Apple silicon and macOS 14 or later. This is a testing prerelease, not an App Store release.
+
+- Saved full-screen opening preference, enabled by default.
+- Coordinated calendar reopening with Command-O.
+- Clearer Settings sections that preserve location drafts.
+- Updates preferences with optional startup checks; nothing installs silently.
+- Corrected Hebrew development-build update wording.
+
+64 automated tests pass, including live integration. Developer ID signature, Apple notarization, stapling and Gatekeeper checks pass. Restart persistence, closed-calendar reopening and full-screen entry/manual exit passed isolated native checks. Complete minimized-window, menu-only/Dock recovery, keyboard accessibility, location-permission and network-recovery acceptance remain open; these are unverified paths, not confirmed defects. Keep Dock mode enabled for the most thoroughly exercised launch path.
+
+From 0.4.0: Check for Updates → Update → Install Update → Install and Relaunch. Versions through 0.3.0 need one manual installation from the DMG. The owner-installed app has not been changed.
+
+SHA-256: `1be5af9da9f13eadc5b88824b10ccbea2148f50d410cd159a609e740199fdf66`
 ]]></description>
-            <enclosure url="https://github.com/WEBServices-ORG/yomvezman-releases/releases/download/v0.4.0-preview.1/YomVezman-0.4.0-4-arm64.dmg" length="3238340" type="application/octet-stream" sparkle:edSignature="psV4/h05GEySg+J0okSbJRPs+7KNpO5FYrJtDjtYtQ4snq2Di4REXEyHM41Pf0V+UPUzD/VcQJmFTPSYSCbwCQ=="></enclosure>
+            <enclosure url="https://github.com/WEBServices-ORG/yomvezman-releases/releases/download/v0.5.0-preview.1/YomVezman-0.5.0-5-arm64.dmg" length="3255698" type="application/octet-stream" sparkle:edSignature="T+e3PnBrPayfXslMYNaG8mTA70yU7INmmGB+sOw2mRcwU6vDBGAdEtZe7VWHdAF/eYkyVuBYWZfEHsc/c+X2AQ=="></enclosure>
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: SCRpJPAhkZz1iAvzgCU7FEUvPqOvoumdNKpzDDKFmGW3JlfCec/zsY1mqpL5jtXnmfPdfWVKess0Um5uaYhEAg==
-length: 1448
+edSignature: aqhKywif6wks7KRDyLinlhTSgldfL0xdYuOO6ltvLSe/pTGLywIQXzEFSA024ZfLT41xIX/rYl0ksPoATf+iDA==
+length: 2470
 -->
