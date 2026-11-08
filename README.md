@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/app-icon.png" alt="YomVezman app logo" width="160" height="160">
+</p>
+
 # YomVezman
 
 Hebrew dates, festivals and daily prayer times in a native Mac calendar.
