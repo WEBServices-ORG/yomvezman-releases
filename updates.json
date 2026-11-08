@@ -1,9 +1,9 @@
 {
   "schema": 1,
-  "version": "0.8.0",
-  "build": 10,
+  "version": "0.8.1",
+  "build": 11,
   "minimumSystemVersion": "14.0.0",
   "prerelease": true,
-  "notes": "Feature-freeze preview 0.8.0 adds an offline Hebrew Psalms reader with exact verse references, daily portions and keyboard navigation. Spoken VoiceOver and remaining reliability/accessibility checks are required before 0.9.0 RC. Store validation is planned for 1.0.0. Updates remain user-confirmed.",
-  "releaseURL": "https://github.com/WEBServices-ORG/yomvezman-releases/releases/tag/v0.8.0-preview.1"
+  "notes": "0.8.1 fixes oversized calendar downloads: transfers are now bounded during streaming rather than after the full download. Exact saved-data fallback and independent requests are preserved. Feature freeze continues; spoken VoiceOver and remaining native checks are required before 0.9.0 RC. Store validation stays at 1.0.0.",
+  "releaseURL": "https://github.com/WEBServices-ORG/yomvezman-releases/releases/tag/v0.8.1-preview.1"
 }

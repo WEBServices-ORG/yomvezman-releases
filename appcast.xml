@@ -4,30 +4,28 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>YomVezman</title>
         <item>
-            <title>0.8.0</title>
-            <pubDate>Mon, 09 Nov 2026 01:18:42 +0200</pubDate>
-            <sparkle:version>10</sparkle:version>
-            <sparkle:shortVersionString>0.8.0</sparkle:shortVersionString>
+            <title>0.8.1</title>
+            <pubDate>Mon, 09 Nov 2026 01:31:51 +0200</pubDate>
+            <sparkle:version>11</sparkle:version>
+            <sparkle:shortVersionString>0.8.1</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# YomVezman 0.8.0 feature-freeze preview
+            <description sparkle:format="markdown"><![CDATA[# YomVezman 0.8.1 preview
 
-App 0.8.0 (10), Apple silicon, macOS 14 or later. This is a testing prerelease, not the 0.9.0 release candidate or an App Store-approved build.
+App 0.8.1 (11), Apple silicon, macOS 14 or later. A reliability update within the 0.8.x feature freeze; not the 0.9.0 release candidate or an App Store-approved build.
 
-New: **View > Daily Psalms** opens an offline Hebrew reader with all 150 chapters (2,527 verses) from the explicitly selected **Tanach with Nikkud** edition, provided by Sefaria and sourced from tanach.us, labeled Public Domain. Exact text and chapter/verse references are preserved; no generated text or English translation is included.
+Fixes oversized calendar downloads. Previously, the 2 MB response limit was checked only after downloading the complete body. Calendar downloads now reject an oversized declared length and enforce the limit while streaming. The offending transfer stops without canceling other calendar requests. Valid exact-request saved data remains available with its original timestamp; canceled requests do not return saved fallback.
 
-The monthly reading follows the selected city's daytime Hebrew date. Psalm 119 is split across days 25/26; a 29-day month combines the final two portions. Previous/next-day buttons update the calendar selection. Adjust text size, or Tab into the reading area and use Up/Down by verse and Home/End to reach the beginning/end. A visible outline marks keyboard focus. No reading history is stored and no text is fetched while reading.
+Controlled 8 MB responses reproduced the old full-download behavior. Regression checks now cover early rejection with and without a declared length, an exact 2 MB valid body, concurrent-request survival, cancellation, and saved-data fallback. The full suite has 96 tests, including live calendar checks.
 
-Source integrity, complete monthly coverage, timezone boundaries, keyboard endpoints/mixed-input scrolling, and refusal of damaged text were verified. The source passed 92 regression tests, including live Hebcal checks, and independent reviews.
+The offline Hebrew Psalms reader and other 0.8.0 features are unchanged. Spoken VoiceOver and remaining native reliability/accessibility, fresh-user/upgrade and display checks remain mandatory before **0.9.0 RC**. Native app/browser automation is unavailable in this session, so no fresh packaged UI or rendered website check is claimed. Store validation stays at **1.0.0**.
 
-Feature freeze means the next work focuses on acceptance and fixes. Spoken VoiceOver and remaining keyboard/display, minimized/status-only recovery, actual location permission denial/Stop, arbitrary map-point selection, same-process outage/retry and reset-error checks remain required before **0.9.0 RC**. Their status is unverified, not a claim of confirmed defects. App Store validation belongs to **1.0.0**. Preview publication does not close these gates. Fresh final-package UI smoke and website rendering were unavailable because the native/browser automation hosts could not connect; earlier source-native checks are recorded separately.
-
-From 0.4.0 or later, use Check for Updates and follow the user-confirmed installation prompts. Older versions need one manual installation. The owner performs installation; no automatic or silent update is enabled.
+From 0.4.0 or later, use Check for Updates and follow the user-confirmed installation prompts. Older versions need one manual installation. Installation is left to the owner; no silent update is enabled.
 ]]></description>
-            <enclosure url="https://github.com/WEBServices-ORG/yomvezman-releases/releases/download/v0.8.0-preview.1/YomVezman-0.8.0-10-arm64.dmg" length="3480174" type="application/octet-stream" sparkle:edSignature="Jppe69xYAE94dvizVdlEdrQxnt1wxH9RpqqcOU29Oz9sx8BT1OhHal4MxiSWGMx89aDFx8DHYb01KYGw+gcCBQ=="></enclosure>
+            <enclosure url="https://github.com/WEBServices-ORG/yomvezman-releases/releases/download/v0.8.1-preview.1/YomVezman-0.8.1-11-arm64.dmg" length="3481559" type="application/octet-stream" sparkle:edSignature="XvxBcqZAuPNYDhmnmG4yU8z4jnBo4cPc3nTej5B4G3mgmTYqoH3tzWdW1WWI42YL3BIpE+O2jdWme52vYeQ2DA=="></enclosure>
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: DoIHrhrcY4v6U6RJuaff9TWj6esre1MyVVsmrEds45vrvzIfsanSJOxc11xhpIKTQ0NRdvHwqIwBtxRadmBxAw==
-length: 3302
+edSignature: xilG2PhSo9Kv+Snh6XR5J6ri8Lqf3SuFj//Ba9sh80IJOsV+5nvsnfUtVfRcVLePI4E/X5p+B9NRyROD+zEPAw==
+length: 2741
 -->
