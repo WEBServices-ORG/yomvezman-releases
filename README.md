@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/app-icon.png" alt="YomVezman app logo" width="160" height="160">
+  <img src="assets/app-icon-256.png" alt="YomVezman app logo" width="160" height="160">
 </p>
 
 # YomVezman
@@ -12,7 +12,7 @@ The DMG contains app version **0.8.1 (11)**. The preview label identifies this d
 
 ## App preview
 
-[![YomVezman full-screen calendar with Hebrew dates and Jerusalem prayer times](assets/yomvezman-0.6.1-calendar.jpg)](https://webservices-org.github.io/yomvezman-releases/assets/yomvezman-0.6.1-calendar.jpg)
+[![YomVezman full-screen calendar with Hebrew dates and Jerusalem prayer times](assets/yomvezman-0.6.1-calendar-1920.jpg)](https://webservices-org.github.io/yomvezman-releases/assets/yomvezman-0.6.1-calendar.jpg)
 
 YomVezman 0.6.1 · Jerusalem sample calendar. Open the image to view it at full size.
 
