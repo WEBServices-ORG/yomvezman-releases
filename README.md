@@ -6,9 +6,9 @@
 
 Hebrew dates, festivals and daily prayer times in a native Mac calendar.
 
-**Public preview — 0.8.3-preview.1.** A feature-freeze prerelease for testing, not a finished release or an App Store-approved build. [Website](https://webservices-org.github.io/yomvezman-releases/) · [Download and release notes](https://github.com/WEBServices-ORG/yomvezman-releases/releases/tag/v0.8.3-preview.1).
+**Public preview — 0.8.4-preview.1.** A feature-freeze prerelease for testing, not a finished release or an App Store-approved build. [Website](https://webservices-org.github.io/yomvezman-releases/) · [Download and release notes](https://github.com/WEBServices-ORG/yomvezman-releases/releases/tag/v0.8.4-preview.1).
 
-The DMG contains app version **0.8.3 (13)**. The preview label identifies this distribution; it does not change the signed app version.
+The DMG contains app version **0.8.4 (14)**. The preview label identifies this distribution; it does not change the signed app version.
 
 ## App preview
 
@@ -24,7 +24,7 @@ YomVezman 0.6.1 · Jerusalem sample calendar. Open the image to view it at full 
 
 ## Install
 
-1. Download the [Apple-silicon DMG](https://github.com/WEBServices-ORG/yomvezman-releases/releases/download/v0.8.3-preview.1/YomVezman-0.8.3-13-arm64.dmg).
+1. Download the [Apple-silicon DMG](https://github.com/WEBServices-ORG/yomvezman-releases/releases/download/v0.8.4-preview.1/YomVezman-0.8.4-14-arm64.dmg).
 2. Open the DMG and drag YomVezman to Applications.
 3. Eject the disk image and open YomVezman from Applications.
 4. Choose a city and timezone. Check the Israel/diaspora schedule, candle-lighting offset and Havdalah method for your practice.
@@ -33,7 +33,7 @@ This preview is Developer ID signed and notarized by Apple. Notarization is a se
 
 ## Use
 
-0.8.3 is a version/build refresh of 0.8.2 with unchanged application behavior. No new feature or fix is claimed; the remaining acceptance checks stay open.
+New in 0.8.4: the calendar date control includes its selected-city date in its VoiceOver label. English/Hebrew live announcements and keyboard editing pass isolated QA; all 96 automated/live tests pass. Date calculations are unchanged.
 
 New in 0.8.2: the Psalms reader now reaches the final verse of the daily portion, including at maximum text size. Native Hebrew Home/End checks passed for the original failing case and the longest daily portion.
 
@@ -73,10 +73,10 @@ Introduced in 0.7.0: View > Date converter compares exact dates across years; Vi
 
 Introduced in 0.6.1: About YomVezman is available from the application and date-status menus. It shows the running version/build, app icon, credits, bundled Sparkle license, privacy and support links. English/Hebrew layouts and keyboard dismissal passed native checks; status-item-only invocation and broader recovery checks remain open.
 
-Acceptance checks still open: full Dock-free window lifecycle and recovery; first-use location permission grant/denial and arbitrary map-point input; spoken VoiceOver date editing; native same-process network failure/recovery; native reset error presentation. These are unverified paths, not claims of confirmed defects. Keep Dock mode enabled if you need the most thoroughly exercised launch path. These remain required before 0.9.0 RC; publishing a preview does not close them. App Store validation is planned for 1.0.0. The reader fix passed isolated development-app checks; final 0.8.3 signed-package UI, mixed-input scrolling and spoken reader output remain unverified. Earlier hosted desktop/narrow rendering passed; full website zoom/keyboard checks remain open.
+Acceptance checks still open: full Dock-free window lifecycle and recovery; first-use location permission grant/denial and arbitrary map-point input; wider VoiceOver acceptance; native same-process network failure/recovery; native reset error presentation. These are unverified paths, not claims of confirmed defects. Keep Dock mode enabled if you need the most thoroughly exercised launch path. These remain required before 0.9.0 RC; publishing a preview does not close them. App Store validation is planned for 1.0.0. The reader fix passed isolated development-app checks; final production-identity regression and uninterrupted spoken reader output remain open. The 0.8.4 isolated direct package passed date-announcement, license-rendering and retained-preference checks. Earlier hosted desktop/narrow rendering passed; full website zoom/keyboard checks remain open.
 
-SHA-256 (`YomVezman-0.8.3-13-arm64.dmg`):
+SHA-256 (`YomVezman-0.8.4-14-arm64.dmg`):
 
 ```text
-9c3e4780d365925bf2b08977c56c92f04f199a919a70e999d4e18ca68e0f7392
+724f5211595af4889694a9ee960c44b031002989c37a1f130f2685e87b2a17fc
 ```

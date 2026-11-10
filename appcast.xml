@@ -4,18 +4,18 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>YomVezman</title>
         <item>
-            <title>0.8.3</title>
-            <pubDate>Mon, 09 Nov 2026 04:46:38 +0200</pubDate>
-            <sparkle:version>13</sparkle:version>
-            <sparkle:shortVersionString>0.8.3</sparkle:shortVersionString>
+            <title>0.8.4</title>
+            <pubDate>Tue, 10 Nov 2026 20:38:24 +0200</pubDate>
+            <sparkle:version>14</sparkle:version>
+            <sparkle:shortVersionString>0.8.4</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="plain-text"><![CDATA[0.8.3 (13) is a version/build refresh of 0.8.2 with unchanged application behavior. It retains the Psalms endpoint fix. No new feature or fix is claimed. Remaining native accessibility, recovery and upgrade checks stay open; this is not the 0.9.0 release candidate.
+            <description sparkle:format="plain-text"><![CDATA[0.8.4 (14) fixes the calendar date control's missing VoiceOver date announcement. The selected-city date is now included in its spoken label, with English/Hebrew native verification and unchanged date-editing behavior. All 96 automated/live tests pass. Wider accessibility, recovery and final upgrade checks remain open; this is a preview, not the 0.9.0 release candidate.
 ]]></description>
-            <enclosure url="https://github.com/WEBServices-ORG/yomvezman-releases/releases/download/v0.8.3-preview.1/YomVezman-0.8.3-13-arm64.dmg" length="3481547" type="application/octet-stream" sparkle:edSignature="bYeBK1CymWYYSe7MHPjqHpskDm8TreeQGvTP2uDzbiwadzaO+vSGYlXc9kBJUT1BP8MDucvUpDXMLriVQM/eDQ=="></enclosure>
+            <enclosure url="https://github.com/WEBServices-ORG/yomvezman-releases/releases/download/v0.8.4-preview.1/YomVezman-0.8.4-14-arm64.dmg" length="3481555" type="application/octet-stream" sparkle:edSignature="SVIdCDzNGPTQHuZFS9XXG71p7u5tan3b4OHKtUEksKT2cpDkHum2s1+2smivyvpTGMOG9TLSNSJvgdLa/hTHBg=="></enclosure>
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: 5ZtTHDeY55UrqmDYBppbv4YAR9VsNfTJQ8fwYYeCRY9a6HTo/UjNdYNVyfiIpC2mxg9tWDhcu4HyvDocNQ3oCg==
-length: 1505
+edSignature: N6tOVc2b4KvrKY31dlvHylLFmDrlyBWbMdAacuCnY2NKfrZHwGZLm6zpSfRlitx9YK0pSEPh1GiJM+O2bcvdCg==
+length: 1612
 -->
