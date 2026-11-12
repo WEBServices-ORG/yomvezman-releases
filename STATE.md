@@ -1,3 +1,10 @@
+## v0.9.70 — clearer app descriptions
+
+Introduction explains calendar, location, conversions and offline Psalms.
+Traditional molad explained; 0.6.1 screenshot identified as an earlier version.
+Application 0.8.4, download, preview status and vertical buttons unchanged.
+Final live-copy verification pending. No application architecture/milestone change.
+
 ## v0.9.69-docs.2 — owner verification accepted
 
 Owner confirmed the published stacked Download/Support layout is verified.
