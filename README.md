@@ -12,9 +12,9 @@ The DMG contains app version **0.8.4 (14)**. The preview label identifies this d
 
 ## App preview
 
-[![YomVezman full-screen calendar with Hebrew dates and Jerusalem prayer times](assets/yomvezman-0.6.1-calendar-1920.jpg)](https://webservices-org.github.io/yomvezman-releases/assets/yomvezman-0.6.1-calendar.jpg)
+[![YomVezman full-screen calendar with Hebrew dates and Jerusalem prayer times](assets/yomvezman-0.6.1-calendar-720p.jpg)](https://webservices-org.github.io/yomvezman-releases/assets/yomvezman-0.6.1-calendar.jpg)
 
-YomVezman 0.6.1 · Jerusalem sample calendar. Open the image to view it at full size.
+YomVezman 0.6.1 · Jerusalem sample calendar. 720p preview (1280 × 720). Open the image to view the full-size original (3840 × 2160).
 
 ## Requirements
 
