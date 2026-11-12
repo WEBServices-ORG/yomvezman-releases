@@ -1,3 +1,11 @@
+## v0.9.69-docs.2 — owner verification accepted
+
+Owner confirmed the published stacked Download/Support layout is verified.
+This closes the outstanding visual acceptance for the requested change; no
+separate narrow-screen browser check is claimed. Deployment/live-file/link checks
+and independent review already passed. Website task complete; app0.8.4 unchanged.
+ROADMAP remains aligned with this presentation-only change.
+
 Version: v0.9.69 — stacked website actions; app0.8.4 unchanged.
 
 Owner requested Download above Support, matching Update Shelf and GainDeck.
